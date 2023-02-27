@@ -51,7 +51,7 @@ for category in CATEGORIES:
 lb = LabelBinarizer()
 labels = lb.fit_transform(labels)
 labels = to_categorical(labels)
-# ok
+
 data = np.array(data, dtype="float32")
 labels = np.array(labels)
 
